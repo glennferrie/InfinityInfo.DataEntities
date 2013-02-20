@@ -1,0 +1,149 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{56828939-5BC7-4237-93D8-D743A2DCCBAF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InfinityInfo.DataEntities</RootNamespace>
+    <AssemblyName>InfinityInfo.Saleslogix.Entities</AssemblyName>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <SignAssembly>false</SignAssembly>
+    <PublishUrl>http://localhost/InfinityInfo.Saleslogix.Entities/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DocumentationFile>bin\Release\InfinityInfo.Saleslogix.Entities.XML</DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Entity Definition - Debug|AnyCPU' ">
+    <OutputPath>bin\Entity Definition - Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\InfinityInfo.Saleslogix.Entities.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessRules\Field\DataFieldConstraint.cs" />
+    <Compile Include="BusinessRules\Field\DataFieldConstraintsCollection.cs" />
+    <Compile Include="BusinessRules\ValidatorDelegates.cs" />
+    <Compile Include="BusinessRules\Entity\BusinessRule.cs" />
+    <Compile Include="BusinessRules\Entity\BusinessRuleCollection.cs" />
+    <Compile Include="Entities\Interfaces\IQueryComparable.cs" />
+    <Compile Include="Entities\Interfaces\IPersistible.cs" />
+    <Compile Include="Entities\Interfaces\IQuerySortable.cs" />
+    <Compile Include="Entities\Base Classes\DataEntity.cs" />
+    <Compile Include="Entities\Base Classes\DataEntityBase.cs" />
+    <Compile Include="Entities\Base Classes\EntityBaseCollection.cs" />
+    <Compile Include="Entities\DataEntityFactory.cs" />
+    <Compile Include="Entities\Interfaces\IDeletable.cs" />
+    <Compile Include="Entities\Base Classes\ReferenceEntity.cs" />
+    <Compile Include="Entities\Base Classes\ReferenceEntityCollection.cs" />
+    <Compile Include="Connection\DatabaseConnection.cs" />
+    <Compile Include="Exceptions\ValidationExceptions.cs" />
+    <Compile Include="Fields\PropertyChangeEventArgs\FieldChangedEventArgs.cs" />
+    <Compile Include="Fields\Specific\BooleanDataField.cs" />
+    <Compile Include="Fields\Specific\DateTimeDataField.cs" />
+    <Compile Include="Fields\Specific\DecimalDataField.cs" />
+    <Compile Include="Fields\Specific\FloatDataField.cs" />
+    <Compile Include="Fields\Specific\IntegerDataField.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Connection\DatabaseConnectionException.cs" />
+    <Compile Include="Fields\DataField.cs" />
+    <Compile Include="Fields\Specific\KeyDataField.cs" />
+    <Compile Include="QueryBuilding\SelectQuery.cs" />
+    <Compile Include="QueryBuilding\EntityQueryBase.cs" />
+    <Compile Include="Exceptions\QueryExceptions.cs" />
+    <Compile Include="Fields\DataFieldBase.cs" />
+    <Compile Include="QueryBuilding\EntityQuery.cs" />
+    <Compile Include="QueryBuilding\QueryExecutionMethod.cs" />
+    <Compile Include="Fields\Specific\StringDataField.cs" />
+    <Compile Include="Fields\DataFieldCollection.cs" />
+    <Compile Include="Serialization\EntitySerializer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

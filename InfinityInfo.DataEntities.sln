@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityInfo.DataEntities", "InfinityInfo.DataEntities\InfinityInfo.DataEntities.csproj", "{56828939-5BC7-4237-93D8-D743A2DCCBAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Entity Definition - Debug|Any CPU = Entity Definition - Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Entity Definition - Debug|Any CPU.ActiveCfg = Entity Definition - Debug|Any CPU
+		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Entity Definition - Debug|Any CPU.Build.0 = Entity Definition - Debug|Any CPU
+		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
