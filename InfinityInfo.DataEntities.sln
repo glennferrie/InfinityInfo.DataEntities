@@ -1,21 +1,53 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityInfo.DataEntities", "InfinityInfo.DataEntities\InfinityInfo.DataEntities.csproj", "{56828939-5BC7-4237-93D8-D743A2DCCBAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp\SampleApp.csproj", "{FFEE60B5-B1B4-46F7-840C-439F62D6BB83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
 		Entity Definition - Debug|Any CPU = Entity Definition - Debug|Any CPU
+		Entity Definition - Debug|Mixed Platforms = Entity Definition - Debug|Mixed Platforms
+		Entity Definition - Debug|x86 = Entity Definition - Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Entity Definition - Debug|Any CPU.ActiveCfg = Entity Definition - Debug|Any CPU
 		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Entity Definition - Debug|Any CPU.Build.0 = Entity Definition - Debug|Any CPU
+		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Entity Definition - Debug|Mixed Platforms.ActiveCfg = Entity Definition - Debug|Any CPU
+		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Entity Definition - Debug|Mixed Platforms.Build.0 = Entity Definition - Debug|Any CPU
+		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Entity Definition - Debug|x86.ActiveCfg = Entity Definition - Debug|Any CPU
 		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{56828939-5BC7-4237-93D8-D743A2DCCBAF}.Release|x86.ActiveCfg = Release|Any CPU
+		{FFEE60B5-B1B4-46F7-840C-439F62D6BB83}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{FFEE60B5-B1B4-46F7-840C-439F62D6BB83}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{FFEE60B5-B1B4-46F7-840C-439F62D6BB83}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{FFEE60B5-B1B4-46F7-840C-439F62D6BB83}.Debug|x86.ActiveCfg = Debug|x86
+		{FFEE60B5-B1B4-46F7-840C-439F62D6BB83}.Debug|x86.Build.0 = Debug|x86
+		{FFEE60B5-B1B4-46F7-840C-439F62D6BB83}.Entity Definition - Debug|Any CPU.ActiveCfg = Debug|x86
+		{FFEE60B5-B1B4-46F7-840C-439F62D6BB83}.Entity Definition - Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{FFEE60B5-B1B4-46F7-840C-439F62D6BB83}.Entity Definition - Debug|Mixed Platforms.Build.0 = Debug|x86
+		{FFEE60B5-B1B4-46F7-840C-439F62D6BB83}.Entity Definition - Debug|x86.ActiveCfg = Debug|x86
+		{FFEE60B5-B1B4-46F7-840C-439F62D6BB83}.Entity Definition - Debug|x86.Build.0 = Debug|x86
+		{FFEE60B5-B1B4-46F7-840C-439F62D6BB83}.Release|Any CPU.ActiveCfg = Release|x86
+		{FFEE60B5-B1B4-46F7-840C-439F62D6BB83}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{FFEE60B5-B1B4-46F7-840C-439F62D6BB83}.Release|Mixed Platforms.Build.0 = Release|x86
+		{FFEE60B5-B1B4-46F7-840C-439F62D6BB83}.Release|x86.ActiveCfg = Release|x86
+		{FFEE60B5-B1B4-46F7-840C-439F62D6BB83}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
